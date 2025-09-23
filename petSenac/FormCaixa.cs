@@ -61,7 +61,6 @@ namespace petSenac
         {
             btnFinalizar.Enabled = chbPagamento.Checked;
         }
-
         private void btnFinalizar_Click(object sender, EventArgs e)
         {
             DialogResult resultado = MessageBox.Show("Tem certeza que deseja encerrar essa comanda?",

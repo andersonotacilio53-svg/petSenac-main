@@ -76,6 +76,7 @@
     <Compile Include="FormUsuario.Designer.cs">
       <DependentUpon>FormUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\Usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -116,8 +117,6 @@
   <ItemGroup>
     <None Include="Resources\caixa.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Model\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
